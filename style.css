@@ -1,0 +1,24 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the main content */
+main {
+    padding: 2rem;
+    text-align: center;
+    font-family: "Franklin Gothic Regular", sans-serif;
+}
+
+main .bongos {
+    margin: auto;
+    width: 262px;
+    text-align: justify;
+}
+
+@font-face {
+    font-family: "Franklin Gothic Regular";
+    src: url("assets/fonts/franklingothicregular.ttf");
+}
